@@ -1,0 +1,124 @@
+/* General Styling */
+.careers-page {
+  font-family: 'Arial', sans-serif; /* Or your preferred font-family */
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('https://via.placeholder.com/1500x500?text=Careers+Hero+Image') no-repeat center center/cover;
+  min-height: 500px;
+  position: relative;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Overlay for readability */
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-section .lead {
+  font-size: 1.5rem;
+}
+
+/* Why Join Us Section */
+.why-join-us {
+  background-color: #f8f9fa;
+}
+
+.why-join-us .card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-join-us .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.why-join-us .icon-large {
+  font-size: 3.5rem;
+  color: #007bff; /* Primary color for icons */
+}
+
+/* Company Culture Section */
+.company-culture img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Benefits Section */
+.benefits-section {
+  background-color: #ffffff;
+}
+
+.benefits-section .benefit-item {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.benefits-section .icon-medium {
+  font-size: 2.5rem;
+  color: #007bff; /* Primary color for icons */
+}
+
+/* Job Openings Section */
+.job-openings .card {
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.job-openings .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.job-openings .card-title {
+  color: #007bff;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  background-color: #f1f1f1;
+}
+
+.testimonials-section .card {
+  border-left: 5px solid #007bff; /* Accent border */
+  border-radius: 8px;
+}
+
+.testimonials-section .blockquote-footer {
+  color: #6c757d;
+}
+
+/* Talent Network CTA Section */
+.talent-network-cta {
+  background-color: #343a40; /* Dark background */
+}
+
+.talent-network-cta .btn-light {
+  background-color: #ffffff;
+  color: #007bff;
+  border-color: #ffffff;
+}
+
+.talent-network-cta .btn-outline-light {
+  color: #ffffff;
+  border-color: #ffffff;
+}
