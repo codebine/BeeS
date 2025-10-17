@@ -11,7 +11,7 @@ import Services from './Pages/Services'
 const App = () => {
   return (
     <div>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/BeeS">
         <Routes >
           <Route path='/' element={<Home/>}></Route>
           <Route path='About' element={<About/>}></Route>
